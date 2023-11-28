@@ -1,0 +1,18 @@
+p{
+    font-size: 19px;
+    text-align: justify;
+}
+img{
+    height: auto;
+    width: 250px;
+    padding: 20px;
+}
+table, tr, th,td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
