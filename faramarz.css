@@ -4,9 +4,13 @@ p{
     padding: 5px;
 }
 #image{
-    height: auto;
+    /* height: auto;
     width: 250px;
-    padding: 20px;
+    padding: 20px; */
+    margin: 2em;
+ max-width: 40em; 
+  max-height: 40em;
+    
 }
 .main{
     display: flex;
