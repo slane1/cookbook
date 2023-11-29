@@ -73,3 +73,38 @@ iframe {
       max-width: 800px;
     }
   }
+
+  .plov-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .plov-container:hover .plov-overlay {
+    opacity: 1;
+  }
+
+  .plov-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff606079;
+  }
+
+  .plov-text {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
