@@ -2,22 +2,32 @@ p{
     font-size: 16px;
     text-align: justify;
     padding: 5px;
+    max-width: 30em; 
 }
 #image{
     /* height: auto;
     width: 250px;
     padding: 20px; */
-    margin: 2em;
- max-width: 40em; 
-  max-height: 40em;
-    
+margin: 2em;
+max-width: 30em; 
+max-height: 40em;
+cursor: url('./img/cesar.png') 1 1, auto ;
 }
-.main{
+#image:hover{
+    
+  
+}
+#main{
     display: flex;
     flex-direction: column;
     /* width: 50%; */
     padding: 10px;
 }
+#tbl{
+    max-width: 30em; 
+}
 
-
+#butn{
+    margin-left: 10em;
+}
   
