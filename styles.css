@@ -28,7 +28,7 @@ iframe {
     margin: 2em;
     max-width: 50em;
     & img{
-      max-width: 800px;
+      max-width: 100%;
       display: block;
     }
     & .overwrap {
@@ -70,7 +70,8 @@ iframe {
     margin: 2em;
     max-width: 50em;
     & img{
-      max-width: 800px;
+      max-width: 100%;
+      display: block;
     }
   }
 
