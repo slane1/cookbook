@@ -5,40 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajiaco    </title>
-    <link rel="stylesheet" href="ajiaco.scss">
+    <!-- <link rel="stylesheet" href="ajiaco.scss"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        .custom-link {
+          color: white !important;
+        }
+      </style>
 </head>
+
+
+
+
+
+
+
+
+
 <body>
 <header>
-    <nav>
-        <div>
+<!-- nav  -->    
+    <nav class="my-2 " >
+        <div class="badge text-bg-primary ">
             <a href=""></a>
-            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#"><img src="/img/ajiaco/recetas.JPG" alt=""> Recetas</a>
-            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#"><img src="/img/ajiaco/marcas.jpg" alt=""> Nuestras marcar</a>
-            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#"><img src="/img/ajiaco/blog.JPG" alt=""> blog</a>
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#"><img class="p-3" src="/img/ajiaco/marcas.jpg" alt=""><img src="/img/ajiaco/recetas.JPG" alt=""> Recetas</a>
+            
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#"><img class="p-3" src="/img/ajiaco/marcas.jpg" alt=""> Nuestras marcar</a>
+           
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#"><img class="p-3" src="/img/ajiaco/blog.JPG" alt=""> blog</a>
             
         </div>
-        <div>
-            <a href=""><img src="/img/ajiaco/dedo.JPG" alt=""></a>
-            <a href=""><img src="/img/ajiaco/maggi.JPG" alt=""></a>
-            <a href=""><img src="/img/ajiaco/niidea.JPG" alt=""></a>
-            <a href=""><img src="/img/ajiaco/crema.JPG" alt=""></a>
-            <a href=""><img src="/img/ajiaco/nescafe.JPG" alt=""></a>
-            <a href=""><img src="/img/ajiaco/kika.JPG" alt=""></a>
-            <a href=""><img src="/img/ajiaco/klim.JPG" alt=""></a>
+        <br>
+        <div class="badge text-bg-primary my-2">
+            <a class="p-3"><img src="/img/ajiaco/dedo.JPG" alt=""></a>
+            <a class="p-3"><img src="/img/ajiaco/maggi.JPG" alt=""></a>
+            <a class="p-3"><img src="/img/ajiaco/niidea.JPG" alt=""></a>
+            <a class="p-3"><img src="/img/ajiaco/crema.JPG" alt=""></a>
+            <a class="p-3"><img src="/img/ajiaco/nescafe.JPG" alt=""></a>
+            <a class="p-3"><img src="/img/ajiaco/kika.JPG" alt=""></a>
+            <a class="p-3"><img src="/img/ajiaco/klim.JPG" alt=""></a>
             <a class="link-opacity-100-hover" href="#"><img src="/img/ajiaco/milo.JPG" alt=""></a>
         </div>
     </nav>
 </header>
+
+
 <main>
 <!-- Ajiaco Santafereño  -->  
-    <div class="container-lg bg-primary text-white ">
-        <div class="imagen"><img class="rounded mx-auto d-block" src="/img/ajiaco/ajiaco.jpg" alt=""></div>
-        <h1>Ajiaco Santafereño</h1>
+    <div class="container-lg bg-primary text-white rounded-3 my-2 ">
+        <div class="imagen pt-3"><img class="rounded mx-auto d-block " src="/img/ajiaco/ajiaco.jpg" alt=""></div>
+        <h1 class="">Ajiaco Santafereño</h1>
         <p>Cicina con recetas Nestle</p>
     </div>
 <!--  Ingredientes  -->  
-    <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+    <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mx-5 my-2"  >
         <ol class="list-group">
             <h2 class="list-group-item active" aria-current="true">Ingredientes</h2>
             <li class="list-group-item list-group-item-success rounded-3">4 tazas de agua (1000 ml)</li>
@@ -53,33 +74,35 @@
             <li class="list-group-item list-group-item-success rounded-3">1 aguacate mediano partido en 4 porciones (300 g)</li>
         </ol>
     </div>
+    
 <!--  A docinar  -->  
-<div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 " > 
+<div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mx-5 my-2" > 
        
     <ul class="list-group list-group-numbered">
             <h2 class="list-group-item active" aria-current="true">¡A cocinar!</h2>
            
             <h3 >PASO 1: Mezcla los ingredientes</h3>
-             <li class="list-group-item list-group-item-dark rounded-3 ">
+             <li class="list-group-item list-group-item-dark rounded-3 custom-link ">
                 En una olla de fondo alto con las 6 tazas de agua, disuelve el sobre de CALDO DE GALLINA MAGGI® DESMENUZADO, llévala a fuego medio y revuelve constantemente, añade a la olla: la mazorca, la pechuga de pollo con hueso y las papas. Cocina a fuego alto por 20 minutos o hasta que la papa y la pechuga estén cocinadas.</li>
 
             <h3 >PASO 2: Desmecha el pollo</h3>
-             <li class="list-group-item list-group-item-dark rounded-3">
+             <li class="list-group-item list-group-item-dark rounded-3 custom-link">
                 Retira de la olla la pechuga de pollo y déjala enfriar un poco para desmecharla. Una vez hayas desmechado el pollo, agrega a la olla las guascas y déjalas cocinar por 5 minutos más o hasta que la papa se deshaga un poco y así espese más el Ajiaco.</li>
 
             <h3 >PASO 3: ¡Disfruta!</h4>
-             <li class="list-group-item list-group-item-dark rounded-3">
+             <li class="list-group-item list-group-item-dark rounded-3 custom-link">
                 Sirve el Ajiaco santafereño en 4 platos iguales, agrega encima el pollo desmechado, decora con una cucharada de CREMA DE LECHE NESTLÉ® y alcaparras.</li>
-             <li class="list-group-item list-group-item-dark rounded-3">
+             <li class="list-group-item list-group-item-dark rounded-3 custom-link">
                 
                 Acompáñalo con aguacate.</li>
 
         </ul>
 
     </div>
+    
 <!--  buttonbutton  -->
     <div>
-        <h3><button>INFORMACIÓN NUTRICIONAL</button></h3>
+        <h3><button class="text-dark-hover">INFORMACIÓN NUTRICIONAL</button></h3>
         <h3><button>Nutrición</button></h3>
     </div>
 
